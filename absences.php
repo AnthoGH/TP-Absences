@@ -1,7 +1,7 @@
 <?php
 try
 {
-    $bdd = new PDO('mysql:host=localhost;dbname=Absences', 'root', 'adminal');
+    $bdd = new PDO('mysql:host=localhost;dbname=TPAbsence', 'root', 'adminal');
 }
 catch(Exception $e)
 {
